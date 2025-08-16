@@ -1,39 +1,21 @@
 <!DOCTYPE html>
 <html>
+
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ site.name }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
+    <!-- 네이버 서치어드바이저 인증 코드가 필요하다면 이 아래에 추가하세요 -->
 
-    {% include meta.html %}
-
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
-
+  
   <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
-
-          <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
-          </nav>
-        </header>
-      </div>
-    </div>
-
+    
+    <!-- 상단 헤더(영어, 카테고리)가 있던 부분이 삭제되어 깔끔해졌습니다. -->
+    
     <div id="main" role="main" class="container">
       {{ content }}
     </div>
@@ -41,11 +23,11 @@
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
-          {% include svg-icons.html %}
+          <!-- 요청하신 '상위광고' 전화번호 링크입니다. -->
+          <p style="text-align: center;"><a href="tel:010-9048-0767">상위광고 010 9048 0767</a></p>
         </footer>
       </div>
     </div>
-
-    {% include analytics.html %}
+    
   </body>
 </html>
