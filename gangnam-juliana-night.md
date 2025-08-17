@@ -1,8 +1,4 @@
----
-layout: page
-title: "강남줄리아나나이트: 가격부터 예약까지 완벽 분석"
-permalink: /gangnam-juliana-night/
----
+
 <!DOCTYPE html>
 <html lang="ko">
 <head>
