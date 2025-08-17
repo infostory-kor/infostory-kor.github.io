@@ -8,7 +8,7 @@ image: "강남줄리아나나이트양이사-image.jpg"
 ---
 <article>
     <a href="tel:01040966816">
-        <img src="/images/강남줄리아나나이트양이사-image.jpg" alt="강남줄리아나나이트 양이사의 연락처가 포함된 1:1 비율의 정사각형 썸네일 광고 이미지" style="width:100%; height:auto; border-radius:10px; margin-bottom: 20px;">
+        <img src="/images/강남줄리아나나이트양이사.jpg" alt="강남줄리아나나이트 양이사의 연락처가 포함된 1:1 비율의 정사각형 썸네일 광고 이미지" style="width:100%; height:auto; border-radius:10px; margin-bottom: 20px;">
     </a>
     <header>
         <h1>강남줄리아나나이트: 가격부터 예약까지 완벽 작전 가이드</h1>
